@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CronExpressionParser", "CronExpressionParser\CronExpressionParser.csproj", "{04E72B92-CFD3-41D5-93BF-2D114EAA425E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronExpressionParser.Tests", "CronExpressionParser.Tests\CronExpressionParser.Tests.csproj", "{3E73B5CC-C606-4118-8B52-6DF147004EF8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04E72B92-CFD3-41D5-93BF-2D114EAA425E} = {04E72B92-CFD3-41D5-93BF-2D114EAA425E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E72B92-CFD3-41D5-93BF-2D114EAA425E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E72B92-CFD3-41D5-93BF-2D114EAA425E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E72B92-CFD3-41D5-93BF-2D114EAA425E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E72B92-CFD3-41D5-93BF-2D114EAA425E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E73B5CC-C606-4118-8B52-6DF147004EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E73B5CC-C606-4118-8B52-6DF147004EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E73B5CC-C606-4118-8B52-6DF147004EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E73B5CC-C606-4118-8B52-6DF147004EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27914020-6DED-4EB6-98D5-6901CDED1988}
+	EndGlobalSection
+EndGlobal
